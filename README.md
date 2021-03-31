@@ -1,6 +1,6 @@
 # preview
 
-https://renatamoss.github.io/simple_calculator/index.html
+https://renatamoss.github.io/calculator_project/index.html
 
 # contact
 
