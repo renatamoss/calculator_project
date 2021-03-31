@@ -66,6 +66,7 @@ operadores.forEach(operador => operador.addEventListener('click', selecionarOper
 const ativarIgual = () => {
     calcular();
     operador = undefined;
+    novoNumero = true;
 }
 
 document.getElementById('igual').addEventListener('click', ativarIgual);
@@ -165,11 +166,15 @@ const alterarCor = () => {
 
         title_calculator.style.color = 'white';
         title_by.style.color = 'white';
+
+        button_dark_mode.innerText = 'White Mode'
     } else {
         container.style.backgroundColor = 'white';
 
         title_calculator.style.color = 'black';
-        title_by.style.color = 'black';       
+        title_by.style.color = 'black';    
+
+        button_dark_mode.innerText = 'Dark Mode'   
     }
 }
 
